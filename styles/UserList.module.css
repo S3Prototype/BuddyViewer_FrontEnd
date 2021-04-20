@@ -1,0 +1,13 @@
+.user_container{
+    min-width: 100%;
+    max-width: 100%;
+
+    min-height: 140px;
+    max-height: 140px;
+
+    background-color: black;
+
+    display: flex;
+    overflow-x: auto;
+    padding: 5px;
+}

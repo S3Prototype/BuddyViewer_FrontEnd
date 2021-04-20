@@ -1,0 +1,35 @@
+.search_container{
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+
+    background-color: var(--base-button-color);
+
+    /* position: sticky;
+    top: 0; */
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+.search_input{
+    min-width: 90%;
+    height: 50px;
+
+    font-size: var(--base-input-font-size);
+
+    text-indent: 20px;
+    
+    border-radius: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--base-bg-color);    
+    background-color: var(--base-bg-color);
+}
+
+.search_input::placeholder{    
+    font-weight:lighter;
+    text-transform: capitalize;
+}

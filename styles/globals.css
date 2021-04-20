@@ -1,9 +1,48 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: 'Gidole';
+  src: url('../public/fonts/gidole.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/gidole.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/gidole.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/gidole.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../public/fonts/gidole.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/gidole.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+}
+
+:root{
+  --base-bg-color: rgb(237, 247, 246);
+  --selected-color: rgb(88, 127, 252);
+  --base-button-color: rgb(88, 127, 252);
+  --base-button-text-color: rgb(237, 247, 246);
+  --base-input-color: rgb(146, 165, 253);
+  --base-border-color:  rgb(146, 165, 253);
+  --base-text-color: rgb(30, 30, 93);
+  
+  --base-font: 'Gidole';
+  --base-input-font-size: 18px;
+  --sort-font-size: 34px;
+  --base-button-font-size: 54px;
+  --base-room-name-font-size: 24px;
+  --base-room-descr-font-size: 18px;
+
+  --thumbnail-width: 260px;
+  --thumbnail-height: 145px;
+
+  --stats-icon-width: 30px;
+  --stats-icon-height: 30px;
+
+  --refresh-icon-width: 50px;
+  --refresh-icon-height: 50px;
+
+  --result-height: 175px;
+
+  --checkbox-size: 50px;
+}
+
+body{
+  text-transform: uppercase;
+  font-family: var(--base-font), Arial, sans-serif;
+  background-color: var(--base-bg-color);
 }
 
 a {
@@ -13,4 +52,6 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }

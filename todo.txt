@@ -1,0 +1,14 @@
+Possible options:
+
+React player
+https://www.npmjs.com/package/react-player
+
+React ytdl
+https://www.npmjs.com/package/react-native-ytdl
+
+React SocketIO
+https://www.npmjs.com/package/use-socketio
+
+https://www.npmjs.com/package/socket.io-client
+
+https://dev.to/bravemaster619/how-to-use-socket-io-client-correctly-in-react-app-o65

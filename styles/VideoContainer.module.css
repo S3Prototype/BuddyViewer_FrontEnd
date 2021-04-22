@@ -1,7 +1,15 @@
 .video_container{
     min-width: 100%;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 360px;
+}
 
-    background-color: black;
+.player{
+
+    /* pointer-events: none; */
+    min-width: 100%;
+    max-width: 100%;
+    
+    min-height: 100%;
+    max-height: 100%;
 }
